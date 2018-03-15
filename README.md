@@ -2,7 +2,7 @@
 ### Description
 This is a basic gif viewer that allows you to add categories of gifs to search
 and the ability to puase/animate the gifs, once they're loaded.
-* goals: play around with __ajax__ and the __giphy api__
+* goals: play around with __ajax__, __bootstrap4__ and the __giphy api__
 
 ### Notes
 * To view a working example you can check https://okputadora.github.io/mjm-hw6-gif/
