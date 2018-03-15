@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>MJM-GIPHY</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <section class="container">
+    <div class="jumbotron bg-primary">
+      <h2 class="text-center">Get-some-gifs-see-their-ratings-and-animate-them-too!</h2>
+    </div>
+    <div class="row">
+      <div class="button-container"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <h3 class="border-bottom">Giphs</h3>
+        <div class="d-flex flex-row flex-wrap gif-container"></div>
+      </div>
+      <div class="col-md-4">
+        <div class="gif-selector">
+          <h3>Add a category here</h3>
+          <input type="text" class="form-control form-group" id="search-term"/>
+          <button class="btn btn-info" id="search">search</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<script type="text/javascript" src="./main.js"></script>
+</body>
